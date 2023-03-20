@@ -45,7 +45,7 @@ data:
           exit 1
         fi
       ;;
-      *) echo "FATAL ERROR: Unsupported OS ID=${ID}"; exit 1
+      *) rhelmajor=8
       ;;
     esac
 
